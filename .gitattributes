@@ -1,11 +1,12 @@
-# Tell GitHub Linguist to focus on Dart files inside lib/
+# Count Dart code inside lib/ as main language
 lib/* linguist-detectable=true
 lib/* linguist-language=Dart
 
-# Exclude auto-generated and platform-specific code
+# Exclude auto-generated and platform-specific files from language stats
 android/* linguist-vendored
 ios/* linguist-vendored
 web/* linguist-vendored
 linux/* linguist-vendored
 macos/* linguist-vendored
 windows/* linguist-vendored
+test/* linguist-vendored
