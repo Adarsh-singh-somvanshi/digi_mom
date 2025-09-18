@@ -1,0 +1,11 @@
+# Tell GitHub Linguist to focus on Dart files inside lib/
+lib/* linguist-detectable=true
+lib/* linguist-language=Dart
+
+# Exclude auto-generated and platform-specific code
+android/* linguist-vendored
+ios/* linguist-vendored
+web/* linguist-vendored
+linux/* linguist-vendored
+macos/* linguist-vendored
+windows/* linguist-vendored
